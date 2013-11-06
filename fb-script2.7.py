@@ -1,4 +1,3 @@
-# imports
 import urllib
 import re
 
@@ -11,7 +10,6 @@ mail = raw_input("E-mail: ")
 passw = raw_input("Password: ")
 spreadsheet_name = raw_input("Name of the spreadsheet: ")
 
-# loads the websites from the sites.txt file
 sites = [line.strip() for line in open('sites.txt')]
 
 def writeInfo():
